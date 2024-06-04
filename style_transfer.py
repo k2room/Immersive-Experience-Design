@@ -104,7 +104,7 @@ def create_random_pointillism_effect(image_path, dot_count=1000, dot_size=5, min
 
 if __name__ == "__main__":
     # 이미지 경로 지정 및 함수 실행
-    image_path = '/home/kimyirum/Immersive-Experience-Design/background_0.jpg'
+    image_path = '/home/kimyirum/Immersive-Experience-Design/images/background_0.jpg'
     output_image = create_pointillism_effect(image_path, dot_size=2, spacing=3)
     # output_image = create_random_pointillism_effect(image_path, dot_count=30000, dot_size=2, min_distance=3)
 
